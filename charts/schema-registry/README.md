@@ -26,7 +26,7 @@ Add the [chart repository](https://helm.sh/docs/helm/helm_repo_add/), if not don
 helm repo add rhcharts https://ricardo-aires.github.io/helm-charts/
 ```
 
-Schema Registry lives outside of and separately from your Kafka brokers. By default this chart is set to use the umbrella chart [kstack](https://github.com/ricardo-aires/helm-charts/charts/kstack), but can be run against an external Kafka by:
+Schema Registry lives outside of and separately from your Kafka brokers. By default this chart is set to use the umbrella chart [kstack](https://github.com/m4r1vs/helm-charts/charts/kstack), but can be run against an external Kafka by:
 
 ```console
 helm install --set kafka.enabled=false --set kafka.bootstrapServers=PLAINTEXT://kstack-kafka-headless.default:9092 ktool rhcharts/schema-registry

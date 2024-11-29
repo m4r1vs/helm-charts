@@ -27,7 +27,7 @@ Add the [chart repository](https://helm.sh/docs/helm/helm_repo_add/), if not don
 helm repo add rhcharts https://ricardo-aires.github.io/helm-charts/
 ```
 
-By default this chart is set to use the umbrella chart [kstack](https://github.com/ricardo-aires/helm-charts/charts/kstack), but can be run against an external Kafka, Schema Registry and Kafka Connect by passing:
+By default this chart is set to use the umbrella chart [kstack](https://github.com/m4r1vs/helm-charts/charts/kstack), but can be run against an external Kafka, Schema Registry and Kafka Connect by passing:
 
 ```console
 helm install --set kafka.enabled=false --set kafka.bootstrapServers=PLAINTEXT://kstack-kafka-headless.default:9092 --set schema-registry.enabled=false --set schema-registry.url=kstack-schema-registry.default:8081 --set kafka-connect.enabled=false --set kafka-connect.url=kstack-kafka-connect.default:8083 ktool rhcharts/ksqldb

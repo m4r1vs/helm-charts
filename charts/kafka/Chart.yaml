@@ -6,9 +6,9 @@ type: application
 keywords:
   - kafka
   - confluent
-home: https://github.com/ricardo-aires/helm-charts
+home: https://github.com/m4r1vs/helm-charts
 sources:
-  - https://github.com/ricardo-aires/helm-charts
+  - https://github.com/m4r1vs/helm-charts
   - https://kafka.apache.org/documentation/#configuration
   - https://docs.confluent.io/platform/current/installation/configuration/broker-configs.html
 dependencies:
@@ -20,6 +20,6 @@ dependencies:
 maintainers:
   - name: Ricardo Henriques
     email: ricardoaireshenriques@gmail.com
-    url: https://github.com/ricardo-aires
+    url: https://github.com/m4r1vs
 icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
 appVersion: 7.3.0

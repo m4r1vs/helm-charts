@@ -7,13 +7,13 @@ keywords:
   - kafka
   - kafka-connect
   - confluent
-home: https://github.com/ricardo-aires/helm-charts
+home: https://github.com/m4r1vs/helm-charts
 sources:
-  - https://github.com/ricardo-aires/helm-charts
+  - https://github.com/m4r1vs/helm-charts
   - https://docs.confluent.io/platform/current/connect/index.html
 maintainers:
   - name: Ricardo Henriques
     email: ricardoaireshenriques@gmail.com
-    url: https://github.com/ricardo-aires
+    url: https://github.com/m4r1vs
 icon: https://svn.apache.org/repos/asf/comdev/project-logos/originals/kafka.svg
 appVersion: 7.3.0

@@ -52,7 +52,7 @@ https://ricardo-aires.github.io/helm-charts/charts/kafka/
 $
 ```
 
-By default, it will also install the [zookeeper](https://github.com/ricardo-aires/helm-charts/tree/main/charts/zookeeper).
+By default, it will also install the [zookeeper](https://github.com/m4r1vs/helm-charts/tree/main/charts/zookeeper).
 
 > If an external Zookeeper Ensemble is to be used turn `zookeeper.enabled` to `false` and include the `zookeeper.url`.
 

@@ -7,13 +7,13 @@ keywords:
   - kafka
   - schema-registry
   - confluent
-home: https://github.com/ricardo-aires/helm-charts
+home: https://github.com/m4r1vs/helm-charts
 sources:
-  - https://github.com/ricardo-aires/helm-charts
+  - https://github.com/m4r1vs/helm-charts
   - https://docs.confluent.io/platform/current/schema-registry/index.html
 maintainers:
   - name: Ricardo Henriques
     email: ricardoaireshenriques@gmail.com
-    url: https://github.com/ricardo-aires
+    url: https://github.com/m4r1vs
 icon: https://assets.confluent.io/m/61d0fe7faad2f991/original/icon-schema-registry.svg
 appVersion: 7.3.0

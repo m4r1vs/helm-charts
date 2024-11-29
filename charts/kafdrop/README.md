@@ -28,7 +28,7 @@ Add the [chart repository](https://helm.sh/docs/helm/helm_repo_add/), if not don
 helm repo add rhcharts https://ricardo-aires.github.io/helm-charts/
 ```
 
-By default this chart is set to use the umbrella chart [kstack](https://github.com/ricardo-aires/helm-charts/charts/kstack), but can be run against an external Kafka by passing:
+By default this chart is set to use the umbrella chart [kstack](https://github.com/m4r1vs/helm-charts/charts/kstack), but can be run against an external Kafka by passing:
 
 ```console
 $ helm upgrade --install aires --set kafka.enabled=false --set kafka.bootstrapServers=kstack-kafka-headless.default:9092 rhcharts/kafdrop
